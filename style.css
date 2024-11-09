@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin-top: 80px;
+    padding: 20px;
+    
+}
+
+h1 {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    
+}
+h1::before{
+    content: '📝';
+    margin-left: 100px;
+}
+.reviewd::before{
+    content: '✅';
+}
+.claass::after{
+    content: '👇';
+}
+.type::after{
+    content: '👇';
+}
+
+.notes-table {
+    width: 80%;
+    margin-left: 100px;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #ebebeb;
+    box-shadow: 0 0 10px rgba(114, 113, 113, 0.1);
+    
+}
+
+.notes-table th, .notes-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #949494;
+    
+}
+.notes-table th {
+    background-color: #f0f0f0;
+}
+.notes-table td {
+    vertical-align: middle;
+}
+.notes-table .icon {
+    font-size: 1.5rem;
+}
+.MAT {
+    background-color: #ac9220;
+    border-radius: 3px;
+    padding: 4px;
+    opacity: 80%;
+}
+.HIST {
+    background-color: #0dd477;
+    border-radius: 3px;
+    padding: 4px;
+    opacity: 80%;
+}
+
+.LIT {
+    background-color: #5564eb;
+    border-radius: 3px;
+    padding: 4px;
+    opacity: 80%;
+}
+
+.ART {
+    background-color: #ce6f7e;
+    border-radius: 3px;
+    padding: 4px;
+    opacity: 80%;
+}
+
+.CSCI {
+   background-color: #28a745;
+    border-radius: 3px;
+    padding: 4px;
+    opacity: 80%;
+}
+
+.notes-table a {
+    color:gray;
+    text-decoration: none;
+}
+
+.notes-table a:hover {
+     
+    color:black;
+    transition: 0.6s ease;
+   
+}
+
+.new-note {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+
